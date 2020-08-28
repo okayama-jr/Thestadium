@@ -187,6 +187,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 
 .section-title h3 span.white {
     color: #fff !important;
+    font-size: 35px;
 
 }
 
@@ -199,7 +200,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 
 @media (max-width: 768px) {
     .section-title h3 {
-        font-size: 40px;
+        font-size: 36px;
     }
 }
 
@@ -815,9 +816,11 @@ footer .subscribe .subscribe-form-2 .form-group {
     opacity: 1;
 }
 
+
 .item{
     height: 300px;
 }
+
 
 /*------------------------------
     10. END SCREENSHOTS SECTION
@@ -2230,11 +2233,11 @@ aside.sidebar .tags ul li {
     line-height: 45px !important;
 }
 .sub-heading_main p {
-    font-size: 1.3rem;
+    font-size: 1.05rem;
     padding: 0;
     margin: 0;
     position: relative;
-    line-height: 45px !important;
+    /* line-height: 45px !important; */
 }
 
 .heading_main p span {
@@ -2376,18 +2379,6 @@ form.news_submit_form .field input[type="email"] {
         font-size: 18px;
         font-weight: 400;
     }
-    .background-fullwidth {
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .background-fixed {
-        background-attachment: fixed;
-    }
-}
-
-@media (max-width: 767px){
     form.news_submit_form .field button {
         height: 60px;
         width: 210px;
@@ -2403,13 +2394,34 @@ form.news_submit_form .field input[type="email"] {
         position: relative;
         top: 20px;
     }
+    .background-fullwidth {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .background-fixed {
+        background-attachment: fixed;
+    }
+
     #header-main-inner{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     #sub-header-main-inner{
         font-size: 0.85rem;
     }
+    .col-md-6 h3{
+        text-align: center;
+    }
+    .recent-news .recent-news-slider .item p {
+        text-align: center;
+    }
+    .why-us p {
+        text-align: center;
+    }
 }
+
+
 
 @media (max-width: 467px){
     .heading_main p{
