@@ -44,7 +44,6 @@
 </head>
 
 <body data-spy="scroll" data-target="#main_menu" data-offset="70">
-
     <!-- Start Preloader -->
     <div class="preloader">
         <div class="loader-wrapper">
@@ -107,15 +106,16 @@
         <div class="content-bottom">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-7 text-center" data-aos="fade-right">
+                    <div class="col-md-12 text-center" data-aos="fade-right">
                         <!-- <p class="mb-0">With us you will</p> -->
-                        <p class="dash-menu-conntent">
-                            <span id="header-main-inner">Clup Of Champion</span> <br>
+                        <p class="dash-menu-conntent" style="margin-top: 50px;">
+                            <span id="header-main-inner">The Stadium HD</span> <br>
                             <span id="sub-header-main-inner">ถ่ายทอดสดกีฬาในประเทศไทย</span> <br>
                             <!-- <span>LIVE Streaming </span> -->
-                            <a href="#" id="more-detail" class="btn btn-primary btn-white shadow btn-theme"><span>Read More</span></a>
+                           <!-- <a href="#" id="more-detail" class="btn btn-primary btn-white shadow btn-theme"><span>Read More</span></a> -->
                         </p>
                     </div>
+                    
                     <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
                         <img src="" class="img-fluid d-block mx-auto" alt="">
                     </div>
@@ -135,12 +135,12 @@
                         <div class="heading_main text_center" style="margin-bottom: 0;">
                             <p class="small text-center">รับชมกีฬาภายในประเทศ รวมถึง</p>
                             <p class="small text-center">แข่งรถยนต์ รถดริฟท์ เรือเร็ว</p>
-                            <p class="small text-center">กีฬาพื้นบ้าน วัวชน ไก่ชน </p>
+                            <p class="small text-center"> กีฬาพื้นบ้าน วัวชน ไก่ชน </p>
                         </div>
 
                         <div class="sub-heading_main text_center" style="margin-bottom: 0;">
-                            <p class="small text-center">รับชมได้ทุกที่ ทุกเวลา  เหมือนนั่งอยู่ขอบสนาม </p>
-                            <p class="small text-center" style="font-size: 1.15rem;">เชิญป้อนอีเมลล์ เพื่อรับสิทธิพิเศษ สำหรับสมาชิกก่อนใคร เมื่อเปิดให้บริการ </p>
+                            <p class="small text-center">รับชมได้ทุกที่ ทุกเวลา เหมือนนั่งอยู่ขอบสนาม </p>
+                            <p class="small text-center" style="font-size: 1.1rem;">เชิญป้อนอีเมลล์เพื่อรับสิทธิพิเศษ เมื่อเปิดให้บริการ </p>
                         </div>
                     </div>
                 </div>
@@ -172,12 +172,14 @@
                     <p></p>
                     <div class="space-50"></div>
                 </div>
+                <!--
                 <div class="col-md-6 offset-md-3" data-aos="fade-up">
                     <div class="video">
                         <img src="assets/img/main-video.png" class="img-fluid d-block mx-auto" alt="">
                         <a href="http://www.youtube.com/" data-lity></a>
                     </div>
                 </div>
+                -->
             </div>
         </div>
     </section>
@@ -265,8 +267,10 @@
                 </div>
                 
                 <div class="col-md-6" data-aos="fade-zoom-in" data-aos-delay="200">
-                    <h3>ช่องทางรับชม ได้ทุกที่ทุกเวลา </h3>
-                    <p>สามารถรับชมรายการแข่งขันกีฬาและการแข่งขันต่างๆ ได้ผ่านช่องทางต่างๆ ทั้งอุปกรณ์โทรศัพท์มือถือ Smart Phone, Tablet, Internet TV, Notebook และ Computer PC ได้ทุกที่ทุกเวลา
+                    <h3>เกี่ยวกับเรา </h3>
+                    <p> The Stadium คือบริการสตรีมมิง การถ่ายทอดสดการแข่งขันกีฬาที่หลากหลาย (Sports LIVE Broadcast Streaming Sevices) 
+                                    ภายในประเทศไทย รวยถึงรายการสาระบันเทิงด้านกีฬา ทั้งรายการข่าวสารวงการกีฬา รายการพรีวิววิเคราะห์ก่อนการแข่งขัน 
+                                    รายการสรุปผลการแข่งขันกีฬารายการต่างๆ โดยสามารถรับชมได้หลากหลายช่องทาง ผ่านอุปกรณ์ที่เชื่อมต่ออินเตอเนต ได้ทุกที่ทุกเวลา
                     </p>
                     <div class="space-50"></div>
                     
@@ -366,8 +370,9 @@
         </div>
     </section>
     <!-- End Section service -->
-
+    
     <!-- Start Section Developer ผู้พัฒนา -->
+    <!--
     <section id="team" class="clients-testimonial padding-100">
         <div class="container">
             <div class="row">
@@ -419,9 +424,12 @@
             </div>
         </div>
     </section>
+        -->
     <!-- End Section Clients Testimonial  -->
 
+    
     <!-- Start Section Jobs Done -->
+    <!--
     <section id="facts" class="fun-facts padding-100 background-withcolor" style="background-image: url(assets/img/bg-page-boxing.png); background-size: cover; background-repeat:no-repeat;">
         <div class="container">
             <div class="row">
@@ -466,6 +474,7 @@
             </div>
         </div>
     </section>
+    -->
     <!-- End Section Fun Facts  -->
 
     <!-- Start Section Our Team -->
@@ -557,6 +566,7 @@
     <!-- End Section Our Team -->
 
     <!-- Start Section quality-->
+    <!--
     <section id="faq" class="faq padding-100 background-fullwidth background-fixed mobile-hide" style="background-image: url(assets/img/bg-page.png); background-size: cover; background-repeat:no-repeat;">
         <div class="container">
             <div class="row">
@@ -579,10 +589,12 @@
                         </p>
                         <div class="space-15"></div>
                         <div class="space-15"></div>
+                        -->
                         <!-- <a href="#"
                             class="btn btn-primary shadow btn-colord btn-theme"><span>Read
                                 More</span></a> -->
                     </div>
+                    <!--
                     <div class="col-md-6 col-12" data-aos="fade-left" data-aos-delay="400">
                         <img src="assets/img/football.png" class="img-fluid" alt="">
                     </div>
@@ -590,14 +602,15 @@
             </div>
         </div>
     </section>
+-->
     <!-- End Section quality  -->
 
     <!-- Start Section Q&A-->
-    <section id="faq" class="faq padding-100">
+    <section id="faq" class="faq padding-100" style="background-image: url(assets/img/motocolor.png); background-size: cover; background-repeat:no-repeat;">
         <div class="container">
             <div class="row">
                 <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
-                    <h3>คำถามที่พบบ่อย
+                    <h3 id="whitetext">คำถามที่พบบ่อย
                         <span> FAQ</span>
                     </h3>
                     <div class="space-25"></div>
@@ -605,10 +618,13 @@
                 </div>
             </div>
             <div class="row align-items-center">
+            <div class="col-md-2 col-12" data-aos="fade-left" data-aos-delay="400">
+                  <!-- <img src="assets/img/motocolor.png" class="img-fluid b-block mx-auto" alt="">-->
+                </div>
                 <!--align-items-center-->
-                <div class="col-md-7 col-12" data-aos="fade-right">
+                <div class="col-md-8 col-12" data-aos="fade-right">
                     <div class="accordion" id="faqAccordion">
-                        
+                        <!--
                         <div class="card shadow">
                             <div class="card-header" id="heading_1">
                                 <h4 class="mb-0">
@@ -627,9 +643,9 @@
                                 </div>
                             </div>
                         </div>
-                        
-                        <div class="card shadow">
-                            <div class="card-header" id="heading_2">
+                        -->
+                        <div class="card shadow"  >
+                            <div class="card-header" id="heading_2" >
                                 <h4 class="mb-0">
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                         data-target="#collapse_2" aria-expanded="false" aria-controls="collapse_2">
@@ -760,9 +776,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 col-12" data-aos="fade-left" data-aos-delay="400">
-                    <img src="assets/img/motocycle.png" class="img-fluid b-block mx-auto" alt="">
-                </div>
+                
             </div>
         </div>
     </section>
@@ -818,7 +832,7 @@
                                     <img src="assets/img/main-video.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-md-6 col-12">
-                                    <h3>ไม่ผลาดทุการรับชม</h3>
+                                    <h3>ไม่พลาดทุกการรับชม</h3>
                                     <div class="space-15"></div>
                                     <p> ไม่พลาดทุกรายการแข่งขันในประเทศ รายการวิเคราะห์เกม และสรุปผลการแข่งขัน  รับชมรายการแข่งขันกีฬาต่างๆภายในประเทศ ทั้งกีฬาสากลทั่วไป รายการชิงแชมป์ประเทศไทย รายการแข่งขันระดับเยาวชน 
                                         ระดับภูมิภาค รายการแข่งขันกีฬาประเพณีของสถาบันต่างๆ รายการแข่งขันมอเตอร์สปอร์ต การแข่งขันกีฬาพื้นบ้าน อาทิเช่น วัวชน 
