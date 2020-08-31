@@ -139,8 +139,7 @@
                         </div>
 
                         <div class="sub-heading_main text_center" style="margin-bottom: 0;">
-                            <p class="small text-center">รับชมได้ทุกที่ ทุกเวลา เหมือนนั่งอยู่ขอบสนาม </p>
-                            <p class="small text-center" style="font-size: 1.1rem;">เชิญป้อนอีเมลล์เพื่อรับสิทธิพิเศษ เมื่อเปิดให้บริการ </p>
+                            <p class="small text-center">รับชมได้ทุกที่ ทุกเวลา เหมือนนั่งอยู่ขอบสนาม <br> เชิญป้อนอีเมลล์เพื่อรับสิทธิพิเศษ เมื่อเปิดให้บริการ  </p>
                         </div>
                     </div>
                 </div>
@@ -153,7 +152,7 @@
                             <form class="news_submit_form" method="post" action="src/submit_email.php">
                                 <fieldset>
                                     <div class="field">
-                                        <input type="email" placeholder="อีเมลล์" name="email"  required />
+                                        <input type="email" placeholder="ที่อยู่อีเมลล์" name="email"  required />
                                         <button type="submit">รับสิทธิพิเศษ</button>
                                     </div>
                                 </fieldset>
@@ -172,14 +171,12 @@
                     <p></p>
                     <div class="space-50"></div>
                 </div>
-                <!--
                 <div class="col-md-6 offset-md-3" data-aos="fade-up">
                     <div class="video">
                         <img src="assets/img/main-video.png" class="img-fluid d-block mx-auto" alt="">
                         <a href="http://www.youtube.com/" data-lity></a>
                     </div>
                 </div>
-                -->
             </div>
         </div>
     </section>
@@ -372,7 +369,6 @@
     <!-- End Section service -->
     
     <!-- Start Section Developer ผู้พัฒนา -->
-    <!--
     <section id="team" class="clients-testimonial padding-100">
         <div class="container">
             <div class="row">
@@ -389,7 +385,7 @@
                         <div class="item">
                             <div class="client-testimonial">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem voluptatem repudiandae ea, repellat dignissimos exercitationem eos optio adipisci reiciendis nostrum sed ex vero perspiciatis voluptas obcaecati voluptatum quos, architecto doloribus.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem voluptatem repudiandae ea, repellat dignissimos exercitationem eos optio adipisci reiciendis.
                                 </p>
                             </div>
                             <div class="client-info d-flex align-items-center">
@@ -405,7 +401,7 @@
                         <div class="item">
                             <div class="client-testimonial">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis doloremque veritatis reprehenderit vitae veniam praesentium numquam. Atque libero eius, temporibus quas deleniti perspiciatis impedit cupiditate id expedita, mollitia totam modi?
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis doloremque veritatis reprehenderit vitae veniam praesentium numquam. Atque libero eius.
                                 </p>
                             </div>
                             <div class="client-info d-flex align-items-center">
@@ -424,13 +420,11 @@
             </div>
         </div>
     </section>
-        -->
-    <!-- End Section Clients Testimonial  -->
+    <!-- End Section developer  -->
 
     
     <!-- Start Section Jobs Done -->
-    <!--
-    <section id="facts" class="fun-facts padding-100 background-withcolor" style="background-image: url(assets/img/bg-page-boxing.png); background-size: cover; background-repeat:no-repeat;">
+    <!--<section id="facts" class="fun-facts padding-100 background-withcolor" style="background-image: url(assets/img/bg-page-boxing.png); background-size: cover; background-repeat:no-repeat;">
         <div class="container">
             <div class="row">
                 <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
@@ -473,8 +467,7 @@
                 </div>
             </div>
         </div>
-    </section>
-    -->
+    </section>-->
     <!-- End Section Fun Facts  -->
 
     <!-- Start Section Our Team -->
@@ -566,8 +559,7 @@
     <!-- End Section Our Team -->
 
     <!-- Start Section quality-->
-    <!--
-    <section id="faq" class="faq padding-100 background-fullwidth background-fixed mobile-hide" style="background-image: url(assets/img/bg-page.png); background-size: cover; background-repeat:no-repeat;">
+    <!-- <section id="faq" class="faq padding-100 background-fullwidth background-fixed mobile-hide" style="background-image: url(assets/img/bg-page.png); background-size: cover; background-repeat:no-repeat;">
         <div class="container">
             <div class="row">
                 <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
@@ -589,42 +581,32 @@
                         </p>
                         <div class="space-15"></div>
                         <div class="space-15"></div>
-                        -->
-                        <!-- <a href="#"
-                            class="btn btn-primary shadow btn-colord btn-theme"><span>Read
-                                More</span></a> -->
                     </div>
-                    <!--
                     <div class="col-md-6 col-12" data-aos="fade-left" data-aos-delay="400">
                         <img src="assets/img/football.png" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
         </div>
-    </section>
--->
+    </section> -->
     <!-- End Section quality  -->
 
     <!-- Start Section Q&A-->
-    <section id="faq" class="faq padding-100" style="background-image: url(assets/img/motocolor.png); background-size: cover; background-repeat:no-repeat;">
+    <section id="faq" class="faq padding-100">
         <div class="container">
             <div class="row">
                 <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
-                    <h3 id="whitetext">คำถามที่พบบ่อย
-                        <span> FAQ</span>
+                    <h3>คำถามที่พบบ่อย
+                        <span style="color:#fff"> FAQ</span>
                     </h3>
                     <div class="space-25"></div>
                     <div class="space-50"></div>
                 </div>
             </div>
             <div class="row align-items-center">
-            <div class="col-md-2 col-12" data-aos="fade-left" data-aos-delay="400">
-                  <!-- <img src="assets/img/motocolor.png" class="img-fluid b-block mx-auto" alt="">-->
-                </div>
-                <!--align-items-center-->
-                <div class="col-md-8 col-12" data-aos="fade-right">
+                <div class="col-md-7 col-12" data-aos="fade-right">
                     <div class="accordion" id="faqAccordion">
-                        <!--
+                        
                         <div class="card shadow">
                             <div class="card-header" id="heading_1">
                                 <h4 class="mb-0">
@@ -643,9 +625,9 @@
                                 </div>
                             </div>
                         </div>
-                        -->
-                        <div class="card shadow"  >
-                            <div class="card-header" id="heading_2" >
+                        
+                        <div class="card shadow">
+                            <div class="card-header" id="heading_2">
                                 <h4 class="mb-0">
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                         data-target="#collapse_2" aria-expanded="false" aria-controls="collapse_2">
@@ -776,7 +758,9 @@
                         </div>
                     </div>
                 </div>
-                
+                <div class="col-md-5 col-12" data-aos="fade-left" data-aos-delay="400">
+                    <img src="assets/img/motocycle.png" class="img-fluid b-block mx-auto" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -788,7 +772,7 @@
             <div class="row">
                 <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
                     <h3>ข่าวสารเพิ่มเติม
-                        <span> News</span>
+                        <span style="color:#fff;"> News</span>
                     </h3>
                     <div class="space-25"></div>
                     <p>
